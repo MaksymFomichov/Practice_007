@@ -54,7 +54,7 @@ public class Main {
         int count = 100000;
         int[] array =  new int[count];
         for (int i = 0; i < count; i++) {
-            array[i] = perfomanceChecker.getRandom(count);
+            array[i] = i; //perfomanceChecker.getRandom(count);
         }
 
         perfomanceChecker.checkAdding(count);
